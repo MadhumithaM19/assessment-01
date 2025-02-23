@@ -115,7 +115,7 @@ body {
 }
 .logo_slider1  {
   display:flex;
-  gap: 70px;
+  gap: 120px;
   
 }
 
@@ -453,6 +453,9 @@ body {
   .why-left {
     text-align: center;
   }
+  .bottom-footer{
+    display: block;
+  }
 }
 
 
@@ -493,7 +496,7 @@ body {
     display: grid;
     grid-template-rows: 70px;
     grid-template-columns: 70px 70px 70px 70px ;
-    grid-gap: 70px;
+    grid-gap: 40px;
     padding: 10px;
     background-color:transparent;
   }
