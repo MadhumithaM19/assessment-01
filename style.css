@@ -115,7 +115,7 @@ body {
 }
 .logo_slider1  {
   display:flex;
-  gap: 120px;
+  gap: 70px;
   
 }
 
@@ -123,6 +123,7 @@ body {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto ;
   grid-gap: 10px;
+  margin: 15px;
   padding: 10px;
   background-color: #f8f8f8;
 }
@@ -414,8 +415,8 @@ body {
 @media screen and (max-width:900px) {
   .logo_slider  {
     display: grid;
-    grid-template-columns: 160px 160px 160px 160px ;
-    grid-gap:30px;
+    grid-template-columns: 140px 140px 140px 140px ;
+    grid-gap:20px;
     /* padding: 20 0; */
     background-color: #f8f8f8;
   }
@@ -428,7 +429,11 @@ body {
   }
   .logo_slider1 {
     display:flex;
-    gap: 50px;
+    gap: 20px;
+  }
+  .main_tab{
+    padding:20px
+    ;
   }
   .tab-left-1{
     display: none;
@@ -495,10 +500,13 @@ body {
   .logo_slider1  {
     display: grid;
     grid-template-rows: 70px;
-    grid-template-columns: 70px 70px 70px 70px ;
-    grid-gap: 40px;
-    padding: 10px;
+    grid-template-columns: 50px 50px 50px 60px;
+    grid-gap: 34px;
+    padding: 3px;
     background-color:transparent;
+  }
+  .brand_logo{
+    padding-left: 20px;
   }
 
   .menu-con ,
@@ -506,13 +514,18 @@ body {
     display: none;
 
   }
+  .right_button> .button{
+    padding: 5px;
+  }
 
   .header-menuu .right {
     display: none;
   }
 
   .header-menuu {
-    justify-content: center;
+    justify-content:space-evenly;
+    padding-left:2px;
+    padding-right: 10px;
   }
 
   .menu_left {
@@ -529,7 +542,9 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-
+  .brands_logo{
+    width: 60px;
+  }
   .plan {
     width: 85%;
     margin: 0.5rem 0;
@@ -614,11 +629,12 @@ body {
   }
   .testimonial{
     margin-bottom: 50px;
+    width: 250px;
   }
   
   .testimonials{
     display: block;
     margin-bottom: 20px;
-    padding-left: 40px;
+    padding-left: 5px;
   }
 }
